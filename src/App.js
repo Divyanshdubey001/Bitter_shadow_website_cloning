@@ -1,7 +1,6 @@
-import NavBar from "./Components/NavBar";
-import LatestContent from "./Components/LatestContent"
-import Footer from "./Components/Footer";
-import HeroSection from "./Components/HeroSection";
+import NavBar from "../src/components/NavBar"
+import LatestContent from "../src/components/LatestContent";
+import Footer from "../src/components/Footer";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 
@@ -11,7 +10,6 @@ function App() {
       <BrowserRouter>
         <NavBar />
       </BrowserRouter>
-      <HeroSection />
       <LatestContent />
       <Footer />
     </div>

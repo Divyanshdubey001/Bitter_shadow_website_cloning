@@ -9,6 +9,9 @@
   line-height: 25px;
   margin: 10px;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .content-wrapper {
@@ -50,7 +53,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
-  margin-top: 50px; 
+  margin-top: 50px;
 }
 
 .buttons button {
@@ -63,4 +66,25 @@
   margin: 8px;
   text-decoration: none;
   border: none;
+}
+
+.category{
+  color: #999;
+}
+
+.select-catagory{
+  background-color: #009999;
+  font-size: 1rem;
+  padding: 10px;
+  color: #fff;
+  margin-left:10px;
+  text-align: center;
+  border-radius: 3px;
+  text-decoration: none;
+  border: none;
+}
+
+option{
+  margin: 5px;
+  padding: 20px;
 }
