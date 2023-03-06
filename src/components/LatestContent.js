@@ -8,7 +8,6 @@ const LatestContent = () => {
 
   const handleChange = (event) => {
     setFilteredCategory(event.target.value);
-    console.log("Function Clicked");
   };
 
   const filteredImage = ArrayData.filter((img) => {

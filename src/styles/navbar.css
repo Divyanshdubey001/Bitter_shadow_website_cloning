@@ -1,3 +1,9 @@
+@media screen and (max-width: 786px) {
+  .navbar-wrapper {
+    margin-left: 55%;
+  }
+}
+
 .navbar-container {
   font-family: "Font Awesome 5 Free";
   color: #3399cc;
@@ -18,15 +24,15 @@ li a {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 400;
+  position: relative;
 }
 
 nav ul {
   font-family: "Font Awesome 5 Free";
   display: flex;
   justify-content: space-around;
-  margin-left: 55rem;
+  margin-left: 65%;
   border-bottom: 15px solid transparent;
   list-style-type: none;
-  margin-top: 15px;
-  padding: 0.5rem 1rem
+  padding: 0.5rem 1rem;
 }

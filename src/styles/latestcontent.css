@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+
+
 .content-title {
   color: #009999;
   font-size: 20px;
@@ -11,8 +14,7 @@
   padding: 10px;
   display: flex;
   justify-content: space-between;
-
-}
+} 
 
 .content-wrapper {
   padding-top: 50px;
@@ -20,6 +22,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+  
 }
 
 .imgs {
@@ -68,23 +71,23 @@
   border: none;
 }
 
-.category{
+.category {
   color: #999;
 }
 
-.select-catagory{
+.select-catagory {
   background-color: #009999;
   font-size: 1rem;
   padding: 10px;
   color: #fff;
-  margin-left:10px;
+  margin-left: 10px;
   text-align: center;
   border-radius: 3px;
   text-decoration: none;
   border: none;
 }
 
-option{
+option {
   margin: 5px;
   padding: 20px;
 }
