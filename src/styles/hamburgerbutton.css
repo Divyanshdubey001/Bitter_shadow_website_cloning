@@ -1,0 +1,21 @@
+.hamburger{
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+}
+
+  @media (max-width: 768px) {
+    .hamburger {
+      display: none;
+    }
+  }
+
+.burger{
+  width: 2rem;
+  height: 1rem;
+  background-color:blueviolet;
+  transform-origin: 1px;
+  margin-left: 96vw;
+}
