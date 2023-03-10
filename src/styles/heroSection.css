@@ -16,12 +16,14 @@ input {
   border: none;
   left: 35%;
   top: 40%;
+  cursor: pointer;
+  border-radius:5px; 
 }
 
-input:hover {
-  background-color: darkgray;
-  cursor: pointer;
+input:hover{
+  background-color: bisque;
 }
+
 
 .filter-image-container {
   display: flex;
